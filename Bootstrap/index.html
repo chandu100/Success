@@ -1,0 +1,408 @@
+<!Doctype html>
+<html>
+  
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="bootstrap-3.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="includes/css/style.css">
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <div class="container" id="main">
+      <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container">
+
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="siteLogo"> Bengaluru</span>
+          </a>
+          </div>
+
+          <div class="navbar-collapse collapse navbar-responsive-collapse">   <!-- navbar-responsive-collapse -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Features</a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#"><span class="glyphicon glyphicon-ruble" aria-hidden="true"></span>Travel</a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Blog</a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Contact</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+             <form action="#" class="navbar-form form-horizontal">
+              <input type="text" id="searchInput" class="form-control" placeholder="Search this site...">
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+            </form> <!-- end navbar-form -->
+
+          </div><!-- end navbar-collapse -->
+        </div> <!-- end container -->
+      </div> <!-- end navbar -->
+
+      <div class="carousel slide" id="myCarousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+				</ol>
+
+        <!-- wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" id="slide1">
+            <div class="carousel-caption">
+              <h1>Bengaluru</h1>
+              <p>India's <em>Silicon Valley</em></p>
+            </div> <!-- end carousel-caption -->
+          </div> <!-- end carousel slide1 -->
+
+          <div class="item" id="slide2">
+		     <div class="carousel-caption">
+				<p><font color="black"> Bannerghatta Biological Park</font></p>
+			</div> <!-- end carousel-caption -->
+           
+          </div> <!-- end carousel slide2 -->
+
+          <div class="item" id="slide3">
+		  <div class="carousel-caption">
+              
+              <p><font color="white"> Bengaluru Flights</font></p>
+            </div> <!-- end carousel-caption -->
+          </div> <!-- end carousel slide3 -->
+		  
+		  <div class="item" id="slide4">
+			<div class="carousel-caption">
+              
+              <p><font color="black">Bengaluru International Airport</font></p>
+            </div> <!-- end carousel-caption -->
+           <!-- end carousel-caption -->
+          </div> <!-- end carousel slide3 -->
+
+        </div> <!-- end carousel-inner -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+      </div> <!-- end myCarousel -->
+
+      <div class="row" id="info">
+        <div class="col-md-4" id="domain_registration">
+          <h3>Bengaluru Rounds Registration</h3>
+          <p>Register with your Email ID to see Bengaluru in one Day. You can See all the parts of the Bengaluru with less fare, which is provided by the Government of Karnataka. You will get good experience and have a safe Journey.Namma &copy; Bengaluru</p>
+          <a href="#myModal" class="btn btn-primary" data-toggle="modal">Read More</a>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal"> <span id="close">&times;</span> </button>
+                    <h4>Email Registeration</h4>
+                  </div> <!-- end modal-header -->
+                  <div class="modal-body">
+                    <h4>Enter your Email:</h4>
+                    <form action="#" class="form-inline">
+                      <input type="text" class="form-control" name="domainName" id="domainName" placeholder="Email ID">
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                  </div> <!-- end modal-body -->
+                </div> <!-- end modal-content -->
+              </div> <!-- end modal-dialog -->
+            </div> <!-- end myModal -->
+        </div>
+        <div class="col-md-4" id="web_design">
+          <h3>About Bangalore</h3>
+          <p>Bangalore known as Bengaluru is the capital of the Indian state of Karnataka. It has a population of about 8.42 million and a metropolitan population of about 8.52 million, making it the third most populous city and fifth most populous urban agglomeration in India.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+        <div class="col-md-4" id="website_maintenance">
+          <h3>Location</h3>
+          <p>Located in southern India on the Deccan Plateau, at a height of over 900 m (3,000 ft) above sea level, Bangalore is known for its pleasant climate throughout the year. Its elevation is the highest among the major large cities of India.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div> <!-- end info -->
+<hr>
+	  <div class="row" id="showcase">
+        <div class="row" id="showcase-1">
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/1.png" alt="Error Loading Images">
+            <h1 class="name">M G Road</h1>
+            <p class="description">Busiest Place in Bengaluru</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/2.jpg" alt="Error Loading Images">
+            <h1 class="name">Venkatappa Art Gallery</h1>
+            <p class="description">World of Books</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/3.png" alt="Error Loading Images">
+            <h1 class="name">Nehru planetarium</h1>
+            <p class="description">All information about past technologies and other important things.</p>
+          </div>
+        </div> <!-- end showcase-1 -->
+        <div class="row" id="showcase-2">
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/4.jpg" alt="Error Loading Images">
+            <h1 class="name">Bengaluru International Aiport</h1>
+            <p class="description">One of the busiest aiport in the world.</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/5.jpg" alt="Error Loading Images">
+            <h1 class="name">Metro</h1>
+            <p class="description">Bengaluru Metro is one of the largest metro line in India.</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/6.jpg" alt="Error Loading Images">
+            <h1 class="name">Bengaluru Palace</h1>
+            <p class="description">Most beautiful and wonderful architecture which was important from ENGLAND constucted by Chola's.</p>
+          </div>
+        </div> <!-- end showcase-2 -->
+        <div class="row" id="showcase-3">
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/7.jpg" alt="Error Loading Images">
+            <h1 class="name">UB City</h1>
+            <p class="description">UB City is the biggest luxury commercial property project in Bangalore, India. Pioneered by the chairman of UB Group, Vijay Mallya.</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/8.jpg" alt="Error Loading Images">
+            <h1 class="name">Leela Palace</h1>
+            <p class="description">The Leela Palaces, Hotels and Resorts is an Indian luxury hospitality group founded in 1987 by Captain C. P. Krishnan Nair</p>
+          </div>
+          <div class="col-xs-4 showcase_unit">
+            <img class="img-responsive center-block" src="includes/image/9.jpg" alt="Error Loading Images">
+            <h1 class="name">Culture and Architecture</h1>
+            <p class="description"> Bangalore is the place you will see all kinds of traditions and architectures.</p>
+          </div>
+        </div> <!-- end showcase-3 -->
+      </div> <!-- end showcase -->
+	  <hr>
+	  
+      <div class="row" id="web_insight">
+        <div class="col-md-8 col-sm-6 col-xs-12 pull-right" id="web_insight_content">
+          <h2>Bengaluru<span class="siteName">&nbsp;Inside</span></h2>
+          <p> <span class="siteName">Bengaluru</span>,A succession of South Indian dynasties, the Western Gangas the Cholas and the Hoysalas, ruled the present region of Bangalore until in 1537 CE, Kempé Gowdā – a feudal ruler under the Vijayanagara Empire – established a mud fort considered to be the foundation of modern Bangalore. In 1638, the Marāthās conquered and ruled Bangalore for almost 50 years, after which the Mughals captured and sold the city to the Mysore Kingdom of the Wadiyar dynasty. It was captured by the British after victory in the Fourth Anglo-Mysore War (1799), who returned administrative control of the city to the Maharaja of Mysore. The old city developed in the dominions of the Maharaja of Mysore and was made capital of the Princely State of Mysore.
+             </p>
+             <button class="btn btn-primary">Read More</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 pull-left" id="web_insight_image">
+          <img src="includes/image/mainimg1.jpg" alt="Web Insight" class="center-block">
+        </div>
+      </div> <!-- end web_insight -->
+
+      <div class="row" id="statistics">
+        <div class="col-md-8 col-sm-6 col-xs-12" id="statistics_content">
+          <h2>Hotals in<span class="siteName">&nbsp;Bengaluru</span></h2>
+          <p><span class="siteName">Bengaluru</span>&nbspHilton Hotels & Resorts (formerly known as Hilton Hotels) is an international chain of full service hotels and resorts and the flagship brand of Hilton Worldwide which is located in Indian Silicon Valley.
+			The original company was founded by Conrad Hilton. <p> As of 2010, there were over 530 Hilton branded hotels across the world in 78 countries across six continents. Hilton hotels are either owned by, managed by, or franchised to independent operators by Hilton Worldwide.
+		  </p></p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" id="statistics_image">
+          <img src="includes/image/mainimg.jpg" alt="Revenue" class="pull-right  center-block">
+        </div>
+      </div> <!-- end statistics -->
+	  <br>
+	  <hr>
+	  <div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Area of Bangalore</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+								
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410861.7045412433!2d77.35073452278378!3d12.953847715218512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e1!3m2!1sen!2sin!4v1449917696931" width="100%" height="200" frameborder="0" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<!-- <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe> -->
+								<br><br>
+								<p align="justify">Bangalore is the capital and largest city in the Indian state of Karnataka. With a population of over 10 million (as of March 2014), Bangalore is the third largest city in India and 27th largest city in the world. Bangalore is one of the most ethnically diverse cities in the country, with over 62% of the city's population comprising migrants from other parts of India. Historically a multicultural city, Bangalore has experienced a dramatic social and cultural change with the advent of the liberalization and expansion of the information technology.</p>
+								
+								<p align="justify">Bangalore Palace, a palace located in Bengaluru, Karnataka, India, was built by Rev. J. Garrett, who was the first Principal of the Central High School in Bangalore, now known as Central College.</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<h4>More information about <small>Bengaluru</small></h4>
+								
+								
+								<p align="justify">Bangalore is the capital and largest city in the Indian state of Karnataka. With a population of over 10 million (as of March 2014), Bangalore is the third largest city in India and 27th largest city in the world. Bangalore is one of the most ethnically diverse cities in the country, with over 62% of the city's population comprising migrants from other parts of India. Historically a multicultural city, Bangalore has experienced a dramatic social and cultural change with the advent of the liberalization and expansion of the information technology.</p>
+								
+								<p align="justify">Bangalore Palace, a palace located in Bengaluru, Karnataka, India, was built by Rev. J. Garrett, who was the first Principal of the Central High School in Bangalore, now known as Central College.</p>
+								
+								<hr>
+								
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window!</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">A Modal Window</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<h4>Text in a modal</h4>
+												
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												
+												<h4>Popovers in a modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+												
+												<h4>Tooltips in a modal</h4>
+												<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+												
+												<hr>
+												
+												<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-6">
+					<h3>More about Bangalore</h3>
+					<p>Bangalore Palace, a palace located in Bengaluru, Karnataka, India, was built by Rev. J. Garrett, who was the first Principal of the Central High School in Bangalore, now known as Central College.</p>
+					
+					<h4>A List Group</h4>
+					
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Bengaluru Palace</h4>
+							<p class="list-group-item-text">Bangalore Palace, a palace located in Bengaluru, Karnataka, India, was built by Rev. J. Garrett, who was the first Principal of the Central High School in Bangalore, now known as Central College.
+The construction of the palace was started in 1862 and completed in 1944. In 1884, it was bought by the then Maharaja of Mysore Chamarajendra Wadiyar X. Now owned by the Mysore royal family, the palace has recently undergone a renovation.
+</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Aiport</h4>
+							<p class="list-group-item-text">Kempegowda International Airport is an international airport serving the city of Bangalore, Karnataka, India. It is located at Devanahalli about 30 kilometres (19 mi) from Bangalore City Railway Station and covers 4,700 acres (1,900 ha). The airport opened in May 2008 as Bengaluru International Airport, replacing HAL Airport as the city's main commercial airport. It was renamed in 2013 after Kempe Gowda I, the founder of Bangalore.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Metro</h4>
+							<p class="list-group-item-text">Namma Metro (literally "Our Metro"), also known as Bangalore Metro, is a metro system for the city of Bangalore, Karnataka, India. The agency responsible for its implementation is the Bangalore Metro Rail Corporation Ltd (BMRCL), a joint venture of the Government of India and the Government of Karnataka. The first stretch (Reach 1) of the Purple Line between Baiyyappanahalli and Mahatma Gandhi Road was inaugurated on 20 October 2011.</p>
+						</a>
+					</div><!-- list-group -->
+					
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+    </div> <!-- end main container -->
+
+  <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row" id="footer">
+          <div class="col-sm-3 col-xs-6" id="starwebs">
+            <h4>Namma Bengaluru</h4>
+            <ul class="unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Places to Visit</a></li>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div> <!-- end footer-starwebs -->
+          <div class="col-sm-3 col-xs-6" id="web_design">
+            <h4>Silicon Valley</h4>
+            <ul class="unstyled">
+              <li><a href="#">Software Companies</a></li>
+              <li><a href="#">Industry Gaints</a></li
+              <li><a href="#">IT Hub</a></li>
+            </ul>
+          </div> <!-- end footer-web_design -->
+          <div class="col-sm-3 col-xs-6" id="web_maintenance">
+            <h4>Travel and Tourism</h4>
+            <ul class="unstyled">
+              <li><a href="#">Temples</a></li>
+              <li><a href="#">Culture</a></li>
+              <li><a href="#">Litarature</a></li>
+              <li><a href="#">Tradition</a></li>
+            </ul>
+          </div> <!-- end footer-web_maintenance -->
+          <div class="col-sm-3 col-xs-6 likes" id="likes">
+            <h4>Like us on</h4>
+            <ul class="unstyled">
+              <li><a href="http://facebook.com/" target="_blank"><img src="includes/image/logo_fb.png" alt="FB" class="img-rounded"></a></li>
+              <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="includes/image/logo_twitter.png" alt="Twitter" class="img-rounded"></a></li>
+              <li><a href="https://plus.google.com/" target="_blank"><img src="includes/image/logo_g.png" alt="Google+" class="img-rounded"></a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank"><img src="includes/image/logo_linkedin.png" alt="Linkedin" class="img-rounded"></a></li>
+            </ul>
+          </div> <!-- end footer-likes -->
+        </div> <!-- end footer-row -->
+      </div> <!-- end container -->
+    </footer> <!-- end footer -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="../../../code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.11.3.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,424 @@
+
+/*------------------------------------ Index.html -------------------------------------------------------*/
+.navbar-form #searchInput{
+  width: 150px;
+  /*margin-left: 50px;*/
+}
+
+.siteLogo{
+  font-family: OpenSans;
+  font-size: 45px;
+}
+
+/*------------- Carousel ----------------*/
+
+/*.container{
+  position: relative;
+}*/
+
+#myCarousel{
+  margin-top: 60px;
+}
+
+#myCarousel .carousel-inner .item{
+  height: 400px;
+}
+
+#myCarousel .carousel-inner #slide1{
+  background: url("../image/hero_med1.jpg") top center no-repeat;
+}
+
+#myCarousel .carousel-inner #slide2{
+  background: url("../image/hero2_med2.png") top center no-repeat;
+}
+
+#myCarousel .carousel-inner #slide3{
+  background: url("../image/hero_med3.png") top center no-repeat;
+}
+
+#myCarousel .carousel-inner #slide4{
+  background: url("../image/hero2_med4.jpg") top center no-repeat;
+}
+
+#myCarousel .carousel-inner h4{
+  font-size: 50px;
+  margin-top: -250px;
+  color: #D0FA58;
+}
+
+#myCarousel .carousel-inner p{
+  font-size: 30px;
+  font-weight: bold;
+  color: #00FF00;
+}
+
+/*----------------- Info ---------------------*/
+
+#info p{
+  text-align: justify;
+}
+
+/*------------------- Web Insight ---------------------*/
+
+#web_insight{
+  margin-top: 20px;
+}
+
+#web_insight h2{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+/*#web_insight #web_insight_content{
+}*/
+#web_insight #web_insight_image{
+  margin-top: 20px;
+}
+
+/*.thumbnail{
+  position: relative;
+}*/
+
+/*------------------ Statistics ------------------*/
+
+#statistics{
+  margin-top: 20px;
+}
+
+#statistics h2{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+#statistics #statistics_image{
+  margin-top: 20px;
+}
+
+/*----------------- Footer -----------------*/
+
+footer{
+  margin-top: 20px;
+  background-color: #9999ff;
+  border-top: 1px solid #4dffa6;
+}
+
+footer h4{
+  font-weight: bold;
+  margin-bottom:15px;
+}
+
+ul.unstyled{
+  padding-left: 0;
+}
+
+ul.unstyled li{
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+#footer .likes ul li{
+  display: inline;
+}
+
+#footer .likes img{
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+/*---------------- General ------------------*/
+.siteName{
+  color: #996533;
+}
+
+.glyphicon{
+  margin-right: 5px;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+
+/*------------------------------------ PortFolio.html ---------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+#portfolio_head{
+  margin: 60px 0 0 0;
+  background-color: #9999ff;
+  padding: 50px 0;
+  font-family: sans-serif;
+}
+
+#portfolio_head h1{
+  margin-top: 0;
+}
+
+#portfolio_head p{
+  font-size: 16px;
+}
+
+#portfolio_head ul{
+  margin-top: 25px;
+}
+
+#portfolio_head ul.unstyled li{
+  margin-bottom: 0px;
+  display: inline;
+}
+
+#portfolio_head ul.unstyled li a{
+  font-size: 15px;
+}
+
+#portfolio_head ul.unstyled li a.active{
+  color: #fff;
+
+}
+
+#showcase{
+  margin: 10px 0 0 0;
+}
+
+#showcase .row{
+  margin-bottom: 25px;
+}
+
+#showcase #showcase-3{
+  margin-bottom: 15px;
+}
+
+.showcase_unit .name{
+  font-size: 20px;
+}
+.showcase_unit .description{
+  font-size: 13px;
+}
+/*------------------- Media Queries -------------------*/
+
+@media (max-width: 992px){
+  .siteLogo{
+    font-size: 30px;
+  }
+  #myCarousel .carousel-inner #slide1{
+    background: url("../image/hero_small1.jpg") top center no-repeat;
+  }
+
+  #myCarousel .carousel-inner #slide2{
+    background: url("../image/hero2_small2.png") top center no-repeat;
+  }
+
+  #myCarousel .carousel-inner #slide3{
+    background: url("../image/hero_small3.png") top center no-repeat;
+  }
+  
+  #myCarousel .carousel-inner #slide4{
+    background: url("../image/hero2_small4.jpg") top center no-repeat;
+  }
+  
+  #myCarousel .carousel-inner h4{
+    font-size: 40px;
+    margin-top: -230px;
+  }
+
+  #myCarousel .carousel-inner p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .showcase_unit .name{
+    font-size: 26px;
+  }
+  .showcase_unit .description{
+    font-size: 14px;
+  }
+}
+@media(max-width: 768px) {
+ #myCarousel .carousel-inner .item{
+   height: 310px;
+     }
+   #myCarousel .carousel-inner #slide1{
+     background-size: 100% 100%;
+   }
+
+   #myCarousel .carousel-inner #slide2{
+     background-size: 100% 100%;
+   }
+
+   #myCarousel .carousel-inner #slide3{
+     background-size: 100% 100%;
+   }
+
+ #statistics #statistics_image img{
+   float: none !important;
+ }
+
+ #web_insight #web_insight_image img{
+   float: none !important;
+ }
+}
+
+@media(max-width: 767px){
+footer #web_maintenance{
+  clear: both;
+}
+.navbar-form #searchInput{
+   display: inline;
+}
+#myCarousel .carousel-inner h4{
+  font-size: 35px;
+  margin-top: -230px;
+}
+
+#myCarousel .carousel-inner p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-responsive{
+  width: 100%;
+  height: 150px;
+}
+}
+
+@media(max-width: 610px){
+  #portfolio_head p{
+    font-size: 14px;
+  }
+  #portfolio_head h1{
+    font-size: 28px;
+  }
+  #portfolio_head ul.unstyled li a{
+    font-size: 13px;
+  }
+  #showcase .col-xs-4{
+    width: 100%;
+  }
+  #hidden_small{
+    display: none;
+  }
+  .showcase_unit .img-responsive{
+    width: 360px;
+    height: 250px;
+  }
+  .showcase_unit .name, .showcase_unit .description{
+    text-align: center;
+  }
+  #showcase .row{
+    margin-bottom: 0px;
+  }
+  #showcase #showcase-3{
+    margin-bottom: 0px;
+  }
+  #showcase .showcase_unit{
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 354px){
+  #portfolio_head ul{
+    margin-top: 32px;
+  }
+  .showcase_unit .img-responsive{
+    width: 250px;
+    height: 180px;
+  }
+  .showcase_unit .name{
+    font-size: 24px;
+  }
+  .showcase_unit .description{
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 320px){
+   #statistics #statistics_image img, #web_insight #web_insight_image img{
+     width: 200px;
+   }
+   #myCarousel .carousel-inner .item{
+     height: 250px;
+   }
+   #myCarousel .carousel-inner h4{
+     font-size: 25px;
+     margin-top: -170px;
+   }
+
+   #myCarousel .carousel-inner p{
+     font-size: 14px;
+     font-weight: bold;
+   }
+   .siteLogo{
+     font-size: 20px;
+   }
+   #portfolio_head p{
+     font-size: 12px;
+   }
+   #portfolio_head h1{
+     font-size: 20px;
+   }
+   #portfolio_head ul.unstyled li a{
+     font-size: 11px;
+   }
+   #portfolio_head ul{
+     margin-top: 15px;
+   }
+}
+
+@media(max-width: 235px){
+   #statistics #statistics_image img, #web_insight #web_insight_image img{
+     width: 150px;
+   }
+   #myCarousel .carousel-inner .item{
+     height: 200px;
+   }
+   footer .col-xs-6{
+     width: 100%;
+   }
+   .showcase_unit .img-responsive{
+     width: 200px;
+     height: 140px;
+   }
+}
+
+@media(min-width: 768px){
+  .img-responsive{
+    width: 100%;
+    height: 170px;
+  }
+}
+
+@media(min-width: 992px){
+  .img-responsive{
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media(min-width: 1200px) {
+ #myCarousel .carousel-inner .item{
+   height: 500px;
+ }
+ #myCarousel .carousel-inner #slide1{
+   background: url("../image/hero_large1.jpg") top center no-repeat;
+ }
+
+ #myCarousel .carousel-inner #slide2{
+   background: url("../image/hero2_large2.png") top center no-repeat;
+ }
+
+ #myCarousel .carousel-inner #slide3{
+   background: url("../image/hero_large3.png") top center no-repeat;
+ }
+ 
+ #myCarousel .carousel-inner #slide4{
+   background: url("../image/hero2_large1.jpg") top center no-repeat;
+ }
+ 
+ #myCarousel .carousel-inner h4{
+   margin-top: -300px;
+ }
+ .img-responsive{
+   width: 100%;
+   height: 250px;
+ }
+ .showcase_unit .description{
+   font-size: 14px;
+ }
+}
