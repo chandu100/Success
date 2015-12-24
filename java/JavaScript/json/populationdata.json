@@ -1,0 +1,88 @@
+{
+    "Population_DATA": [
+        {
+            "country_name": "World",
+            "population": 7095.22
+        },
+        {
+            "country_name": "China",
+            "population": 1360.76
+        },
+        {
+            "country_name": "India",
+            "population": 1239.26
+        },
+        {
+            "country_name": "European Union",
+            "population": 504.89
+        },
+        {
+            "country_name": "USA",
+            "population": 316.85
+        },
+        {
+            "country_name": "Indonesia",
+            "population": 247.95
+        },
+        {
+            "country_name": "Brazil",
+            "population": 199.88
+        },
+        {
+            "country_name": "Russia",
+            "population": 141.44
+        },
+        {
+            "country_name": "Japan",
+            "population": 127.34
+        },
+        {
+            "country_name": "Mexico",
+            "population": 116.02
+        },
+        {
+            "country_name": "Germany",
+            "population": 81.75
+        },
+        {
+            "country_name": "Turkey",
+            "population": 75.81
+        },
+        {
+            "country_name": "UK",
+            "population": 63.76
+        },
+        {
+            "country_name": "France",
+            "population": 63.7
+        },
+        {
+            "country_name": "Italy",
+            "population": 61
+        },
+        {
+            "country_name": "South Africa",
+            "population": 51.81
+        },
+        {
+            "country_name": "Korea",
+            "population": 50.24
+        },
+        {
+            "country_name": "Argentina",
+            "population": 41.49
+        },
+        {
+            "country_name": "Canada",
+            "population": 35.21
+        },
+        {
+            "country_name": "Saudi Arabia",
+            "population": 26.93
+        },
+        {
+            "country_name": "Australia",
+            "population": 23.05
+        }
+    ]
+}

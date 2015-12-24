@@ -1,0 +1,80 @@
+{
+    "GDP_DATA": [
+        {
+            "country_name": "USA",
+            "gdp": 16237.75
+        },
+        {
+            "country_name": "China",
+            "gdp": 9020.31
+        },
+        {
+            "country_name": "Japan",
+            "gdp": 5149.9
+        },
+        {
+            "country_name": "Germany",
+            "gdp": 3597.97
+        },
+        {
+            "country_name": "France",
+            "gdp": 2739.27
+        },
+        {
+            "country_name": "Brazil",
+            "gdp": 2456.66
+        },
+        {
+            "country_name": "UK",
+            "gdp": 2422.92
+        },
+        {
+            "country_name": "Russia",
+            "gdp": 2213.57
+        },
+        {
+            "country_name": "Italy",
+            "gdp": 2076.01
+        },
+        {
+            "country_name": "India",
+            "gdp": 1972.84
+        },
+        {
+            "country_name": "Canada",
+            "gdp": 1843.75
+        },
+        {
+            "country_name": "Australia",
+            "gdp": 1589.12
+        },
+        {
+            "country_name": "Mexico",
+            "gdp": 1274.97
+        },
+        {
+            "country_name": "Korea",
+            "gdp": 1258.59
+        },
+        {
+            "country_name": "Indonesia",
+            "gdp": 946.39
+        },
+        {
+            "country_name": "Turkey",
+            "gdp": 851.82
+        },
+        {
+            "country_name": "Saudi Arabia",
+            "gdp": 745.62
+        },
+        {
+            "country_name": "Argentina",
+            "gdp": 498.7
+        },
+        {
+            "country_name": "South Africa",
+            "gdp": 375.99
+        }
+    ]
+}

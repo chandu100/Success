@@ -1,0 +1,34 @@
+{
+    "Continent_List_DATA": [
+        {
+            "continent": "South America",
+            "population": 2413.7,
+            "gdp": 2955.36
+        },
+        {
+            "continent": "Australia",
+            "population": 230.5,
+            "gdp": 1589.12
+        },
+        {
+            "continent": "North America",
+            "population": 4680.8,
+            "gdp": 19356.47
+        },
+        {
+            "continent": "Asia",
+            "population": 30780.5,
+            "gdp": 18686.88
+        },
+        {
+            "continent": "Europe",
+            "population": 3478.9,
+            "gdp": 10626.82
+        },
+        {
+            "continent": "Africa",
+            "population": 518.1,
+            "gdp": 375.99
+        }
+    ]
+}

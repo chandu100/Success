@@ -1,0 +1,57 @@
+ svg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.axis path,
+.axis line{
+  fill:none;
+  stroke:#000;
+ }
+body{
+  background-color: #669999;
+}
+.header{
+  text-align: center;
+  width: 800px;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header a{
+  padding-right: 20px;
+
+}
+
+ a:link {
+    color: #009999;
+    text-decoration: none;
+}
+
+/* visited link */
+ a:visited {
+    color: #019875;
+     text-decoration: none;
+}
+
+/* mouse over link */
+ a:hover {
+    color: #019875;
+     text-decoration: underline;
+     cursor: pointer;
+}
+
+/* selected link */
+ a:active {
+    color: #019875;
+     text-decoration: none;
+}
+
+.gdp-plot,.population-plot,.pp-plot,.population-gdp-data,.stacked-data{
+  margin-top: 50px;
+}

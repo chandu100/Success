@@ -1,0 +1,749 @@
+[
+    {
+        "Africa": "Algeria"
+    },
+    {
+        "Africa": "Angola"
+    },
+    {
+        "Africa": "Ascension Island"
+    },
+    {
+        "Africa": "Benin"
+    },
+    {
+        "Africa": "Botswana"
+    },
+    {
+        "Africa": "Burkina Faso"
+    },
+    {
+        "Africa": "Burundi"
+    },
+    {
+        "Africa": "Cameroon"
+    },
+    {
+        "Africa": "Cape Verde"
+    },
+    {
+        "Africa": "Central African Republic"
+    },
+    {
+        "Africa": "Chad"
+    },
+    {
+        "Africa": "Comoros"
+    },
+    {
+        "Africa": "Congo"
+    },
+    {
+        "Africa": "Diego Garcia"
+    },
+    {
+        "Africa": "Djibouti"
+    },
+    {
+        "Africa": "Egypt"
+    },
+    {
+        "Africa": "Equatorial Guinea"
+    },
+    {
+        "Africa": "Eritrea"
+    },
+    {
+        "Africa": "Ethiopia"
+    },
+    {
+        "Africa": "Falkland Islands (malvinas)"
+    },
+    {
+        "Africa": "Gabon"
+    },
+    {
+        "Africa": "Ghana"
+    },
+    {
+        "Africa": "Gibraltar"
+    },
+    {
+        "Africa": "Guinea"
+    },
+    {
+        "Africa": "Guinea-Bissau"
+    },
+    {
+        "Africa": "Kenya"
+    },
+    {
+        "Africa": "Lesotho"
+    },
+    {
+        "Africa": "Liberia"
+    },
+    {
+        "Africa": "Libya"
+    },
+    {
+        "Africa": "Madagascar"
+    },
+    {
+        "Africa": "Malawi"
+    },
+    {
+        "Africa": "Mali"
+    },
+    {
+        "Africa": "Mauritania"
+    },
+    {
+        "Africa": "Mauritius"
+    },
+    {
+        "Africa": "Mayotte"
+    },
+    {
+        "Africa": "Morocco"
+    },
+    {
+        "Africa": "Mozambique"
+    },
+    {
+        "Africa": "Namibia"
+    },
+    {
+        "Africa": "Niger"
+    },
+    {
+        "Africa": "Nigeria"
+    },
+    {
+        "Africa": "RÉunion"
+    },
+    {
+        "Africa": "Rwanda"
+    },
+    {
+        "Africa": "Saint Helena"
+    },
+    {
+        "Africa": "Sao Tome And Principe"
+    },
+    {
+        "Africa": "Senegal"
+    },
+    {
+        "Africa": "Seychelles"
+    },
+    {
+        "Africa": "Sierra Leone"
+    },
+    {
+        "Africa": "Somalia"
+    },
+    {
+        "Africa": "South Africa"
+    },
+    {
+        "Africa": "Sudan"
+    },
+    {
+        "Africa": "Swaziland"
+    },
+    {
+        "Africa": "Tanzania"
+    },
+    {
+        "Africa": "The Gambia"
+    },
+    {
+        "Africa": "Togo"
+    },
+    {
+        "Africa": "Tristan da Cunha"
+    },
+    {
+        "Africa": "Tunisia"
+    },
+    {
+        "Africa": "Uganda"
+    },
+    {
+        "Africa": "Western Sahara"
+    },
+    {
+        "Africa": "Zambia"
+    },
+    {
+        "Africa": "Zimbabwe"
+    },
+    {
+        "Antarctica": "Antarctica"
+    },
+    {
+        "Antarctica": "Bouvet Island"
+    },
+    {
+        "Antarctica": "French Southern Territories"
+    },
+    {
+        "Asia": "Afghanistan"
+    },
+    {
+        "Asia": "Armenia"
+    },
+    {
+        "Asia": "Azerbaijan"
+    },
+    {
+        "Asia": "Bahrain"
+    },
+    {
+        "Asia": "Bangladesh"
+    },
+    {
+        "Asia": "Bhutan"
+    },
+    {
+        "Asia": "British Indian Ocean Territory"
+    },
+    {
+        "Asia": "Brunei Darussalam"
+    },
+    {
+        "Asia": "Burma"
+    },
+    {
+        "Asia": "Cambodia"
+    },
+    {
+        "Asia": "China"
+    },
+    {
+        "Asia": "Christmas Island"
+    },
+    {
+        "Asia": "Cocos (keeling) Islands"
+    },
+    {
+        "Asia": "Cyprus"
+    },
+    {
+        "Asia": "Guam"
+    },
+    {
+        "Asia": "Hong Kong"
+    },
+    {
+        "Asia": "India"
+    },
+    {
+        "Asia": "Indonesia"
+    },
+    {
+        "Asia": "Iran"
+    },
+    {
+        "Asia": "Iraq"
+    },
+    {
+        "Asia": "Israel"
+    },
+    {
+        "Asia": "Japan"
+    },
+    {
+        "Asia": "Jordan"
+    },
+    {
+        "Asia": "Kazakhstan"
+    },
+    {
+        "Asia": "Kuwait"
+    },
+    {
+        "Asia": "Kyrgyzstan"
+    },
+    {
+        "Asia": "Lao People's Democratic Republic"
+    },
+    {
+        "Asia": "Lebanon"
+    },
+    {
+        "Asia": "Macao"
+    },
+    {
+        "Asia": "Malaysia"
+    },
+    {
+        "Asia": "Maldives"
+    },
+    {
+        "Asia": "Mongolia"
+    },
+    {
+        "Asia": "Nepal"
+    },
+    {
+        "Asia": "North Korea"
+    },
+    {
+        "Asia": "Oman"
+    },
+    {
+        "Asia": "Pakistan"
+    },
+    {
+        "Asia": "Philippines"
+    },
+    {
+        "Asia": "Qatar"
+    },
+    {
+        "Asia": "Russian Federation"
+    },
+    {
+        "Asia": "Saudi Arabia"
+    },
+    {
+        "Asia": "Saudi–Iraqi neutral zone"
+    },
+    {
+        "Asia": "Singapore"
+    },
+    {
+        "Asia": "South Korea"
+    },
+    {
+        "Asia": "Sri Lanka"
+    },
+    {
+        "Asia": "Syrian Arab Republic"
+    },
+    {
+        "Asia": "Taiwan"
+    },
+    {
+        "Asia": "Tajikistan"
+    },
+    {
+        "Asia": "Thailand"
+    },
+    {
+        "Asia": "Turkey"
+    },
+    {
+        "Asia": "Turkmenistan"
+    },
+    {
+        "Asia": "United Arab Emirates"
+    },
+    {
+        "Asia": "Uzbekistan"
+    },
+    {
+        "Asia": "Viet Nam"
+    },
+    {
+        "Asia": "Yemen"
+    },
+    {
+        "Asia": "Palestinian Territory"
+    },
+    {
+        "Australia": "American Samoa"
+    },
+    {
+        "Australia": "Australia"
+    },
+    {
+        "Australia": "Cook Islands"
+    },
+    {
+        "Australia": "East Timor"
+    },
+    {
+        "Australia": "Fiji"
+    },
+    {
+        "Australia": "French Polynesia"
+    },
+    {
+        "Australia": "Heard Island And Mcdonald Islands"
+    },
+    {
+        "Australia": "Kiribati"
+    },
+    {
+        "Australia": "Marshall Islands"
+    },
+    {
+        "Australia": "Micronesia"
+    },
+    {
+        "Australia": "Nauru"
+    },
+    {
+        "Australia": "New Caledonia"
+    },
+    {
+        "Australia": "New Zealand"
+    },
+    {
+        "Australia": "Niue"
+    },
+    {
+        "Australia": "Norfolk Island"
+    },
+    {
+        "Australia": "Northern Mariana Islands"
+    },
+    {
+        "Australia": "Palau"
+    },
+    {
+        "Australia": "Papua New Guinea"
+    },
+    {
+        "Australia": "Pitcairn"
+    },
+    {
+        "Australia": "Samoa"
+    },
+    {
+        "Australia": "Solomon Islands"
+    },
+    {
+        "Australia": "Tokelau"
+    },
+    {
+        "Australia": "Tonga"
+    },
+    {
+        "Australia": "Tuvalu"
+    },
+    {
+        "Australia": "Vanuatu"
+    },
+    {
+        "Australia": "Wallis And Futuna"
+    },
+    {
+        "Europe": "Aland Islands"
+    },
+    {
+        "Europe": "Albania"
+    },
+    {
+        "Europe": "Andorra"
+    },
+    {
+        "Europe": "Austria"
+    },
+    {
+        "Europe": "Belarus"
+    },
+    {
+        "Europe": "Belgium"
+    },
+    {
+        "Europe": "Bosnia And Herzegovina"
+    },
+    {
+        "Europe": "Bulgaria"
+    },
+    {
+        "Europe": "Canary Islands"
+    },
+    {
+        "Europe": "Croatia"
+    },
+    {
+        "Europe": "Czech Republic"
+    },
+    {
+        "Europe": "Denmark"
+    },
+    {
+        "Europe": "Estonia"
+    },
+    {
+        "Europe": "European Union"
+    },
+    {
+        "Europe": "Faroe Islands"
+    },
+    {
+        "Europe": "Finland"
+    },
+    {
+        "Europe": "France"
+    },
+    {
+        "Europe": "Georgia"
+    },
+    {
+        "Europe": "Germany"
+    },
+    {
+        "Europe": "Greece"
+    },
+    {
+        "Europe": "Guernsey"
+    },
+    {
+        "Europe": "Hungary"
+    },
+    {
+        "Europe": "Iceland"
+    },
+    {
+        "Europe": "Ireland"
+    },
+    {
+        "Europe": "Isle Of Man"
+    },
+    {
+        "Europe": "Italy"
+    },
+    {
+        "Europe": "Jersey"
+    },
+    {
+        "Europe": "Latvia"
+    },
+    {
+        "Europe": "Liechtenstein"
+    },
+    {
+        "Europe": "Lithuania"
+    },
+    {
+        "Europe": "Luxembourg"
+    },
+    {
+        "Europe": "Malta"
+    },
+    {
+        "Europe": "Moldova"
+    },
+    {
+        "Europe": "Monaco"
+    },
+    {
+        "Europe": "Montenegro"
+    },
+    {
+        "Europe": "Netherlands"
+    },
+    {
+        "Europe": "Norway"
+    },
+    {
+        "Europe": "Poland"
+    },
+    {
+        "Europe": "Portugal"
+    },
+    {
+        "Europe": "Republic of Macedonia"
+    },
+    {
+        "Europe": "Romania"
+    },
+    {
+        "Europe": "San Marino"
+    },
+    {
+        "Europe": "Serbia"
+    },
+    {
+        "Europe": "Serbien und Montenegro"
+    },
+    {
+        "Europe": "Slovakia"
+    },
+    {
+        "Europe": "Slovenia"
+    },
+    {
+        "Europe": "Soviet Union"
+    },
+    {
+        "Europe": "Spain"
+    },
+    {
+        "Europe": "Svalbard And Jan Mayen"
+    },
+    {
+        "Europe": "Sweden"
+    },
+    {
+        "Europe": "Switzerland"
+    },
+    {
+        "Europe": "Ukraine"
+    },
+    {
+        "Europe": "United Kingdom"
+    },
+    {
+        "Europe": "Vatican City"
+    },
+    {
+        "North America": "Anguilla"
+    },
+    {
+        "North America": "Antigua And Barbuda"
+    },
+    {
+        "North America": "Aruba"
+    },
+    {
+        "North America": "Bahamas"
+    },
+    {
+        "North America": "Barbados"
+    },
+    {
+        "North America": "Belize"
+    },
+    {
+        "North America": "Bermuda"
+    },
+    {
+        "North America": "British Virgin Islands"
+    },
+    {
+        "North America": "Canada"
+    },
+    {
+        "North America": "Cayman Islands"
+    },
+    {
+        "North America": "Costa Rica"
+    },
+    {
+        "North America": "Cuba"
+    },
+    {
+        "North America": "Dominica"
+    },
+    {
+        "North America": "El Salvador"
+    },
+    {
+        "North America": "Greenland"
+    },
+    {
+        "North America": "Grenada"
+    },
+    {
+        "North America": "Guadeloupe"
+    },
+    {
+        "North America": "Guatemala"
+    },
+    {
+        "North America": "Haiti"
+    },
+    {
+        "North America": "Honduras"
+    },
+    {
+        "North America": "Jamaica"
+    },
+    {
+        "North America": "Martinique"
+    },
+    {
+        "North America": "Mexico"
+    },
+    {
+        "North America": "Montserrat"
+    },
+    {
+        "North America": "Netherlands Antilles"
+    },
+    {
+        "North America": "Nicaragua"
+    },
+    {
+        "North America": "Puerto Rico"
+    },
+    {
+        "North America": "Saint Kitts And Nevis"
+    },
+    {
+        "North America": "Saint Pierre And Miquelon"
+    },
+    {
+        "North America": "Turks And Caicos Islands"
+    },
+    {
+        "North America": "United States"
+    },
+    {
+        "South America": "Argentina"
+    },
+    {
+        "South America": "Bolivia"
+    },
+    {
+        "South America": "Brazil"
+    },
+    {
+        "South America": "Chile"
+    },
+    {
+        "South America": "Colombia"
+    },
+    {
+        "South America": "Dominican Republic"
+    },
+    {
+        "South America": "Ecuador"
+    },
+    {
+        "South America": "French Guiana"
+    },
+    {
+        "South America": "Guyana"
+    },
+    {
+        "South America": "Panama"
+    },
+    {
+        "South America": "Paraguay"
+    },
+    {
+        "South America": "Peru"
+    },
+    {
+        "South America": "Saint Lucia"
+    },
+    {
+        "South America": "Saint Vincent and the Grenadines"
+    },
+    {
+        "South America": "South Georgia And The South Sandwich Islands"
+    },
+    {
+        "South America": "Suriname"
+    },
+    {
+        "South America": "Trinidad And Tobago"
+    },
+    {
+        "South America": "Uruguay"
+    },
+    {
+        "South America": "Venezuela"
+    },
+    {
+        "South America": "Virgin Islanda"
+    }
+]
